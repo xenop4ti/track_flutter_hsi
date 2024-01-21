@@ -9,17 +9,12 @@ void main() {
 
   listString.add('Ahmad');
   listString.add('Nasrul');
-  listString.add('Ganteng');
 
   print(listInt);
   print(listString);
   print(listString.length);
 
   print(listString[0]);
-
-  listString[1] = 'Bro Lur';
-
-  print(listString);
 
   listString.removeAt(0);
 
